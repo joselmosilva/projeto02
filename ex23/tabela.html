@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            border: 5px solid red;
+        }
+        tr.linha {
+            background-color: gray;
+        }
+        td.dado {
+            background-color: brown;
+        }
+        td {
+             border: 1px solid black;
+             padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+      <!--
+            HIERRAQUIA DE TABELAS.
+            TABLE = TABELA
+            TABLE ROW = LINHA DE TABELA
+            TABLE HEADER= CABEÇALHO DE TABELA
+            TABLE DATA=DADO DE TGABELA.
+        -->
+    <table>
+      <TR>
+        <TD>A1</TD>
+        <TD>B1</TD>
+        <TD>C1</TD>
+
+      </TR>
+      <TR class="linha
+      ">
+        <TD>A2</TD>
+        <TD>B2</TD>
+        <TD>C2</TD>
+      </TR>
+      <TR>
+        <TD>A3</TD>
+        <TD>B3</TD>
+        <TD>C3</TD>
+      </TR>
+      <TR>
+        <TD>A4</TD>
+        <TD class="dado">B4</TD>
+        <TD>C4</TD>
+      </TR>
+    </table>
+    
+</body>
+</html>
